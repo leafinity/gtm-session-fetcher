@@ -508,7 +508,9 @@ typedef NS_ENUM(NSInteger, GTMSessionFetcherStatus) {
   GTMSessionFetcherStatusBadRequest = 400,
   GTMSessionFetcherStatusUnauthorized = 401,
   GTMSessionFetcherStatusForbidden = 403,
-  GTMSessionFetcherStatusPreconditionFailed = 412
+  GTMSessionFetcherStatusNotFound = 404,
+  GTMSessionFetcherStatusPreconditionFailed = 412,
+  GTMSessionFetcherStatusPayloadTooLarge = 413
 };
 
 #ifdef __cplusplus
